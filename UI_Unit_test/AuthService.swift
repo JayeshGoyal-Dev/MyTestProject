@@ -28,6 +28,7 @@ final class AuthService: AuthServiceProtocol {
         completion: @escaping (Result<User, Error>) -> Void
     ) {
 
+        
         // Simulating API call
         DispatchQueue.global().asyncAfter(deadline: .now() + 1) {
 
