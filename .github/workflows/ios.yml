@@ -20,5 +20,5 @@ jobs:
             -project UI_Unit_test.xcodeproj \
             -scheme UI_Unit_test \
             -sdk iphonesimulator \
-            -destination 'platform=iOS Simulator,name=iPhone 16' \
+            -destination 'platform=iOS Simulator,name=iPhone Air' \
             clean test
